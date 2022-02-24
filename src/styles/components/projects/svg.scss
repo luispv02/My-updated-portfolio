@@ -1,0 +1,22 @@
+.projects__svg{
+    svg{
+
+        position: absolute;
+        bottom: 0;
+
+        @media (min-width: 500px){
+            bottom: -20px;
+        }
+
+        @media (min-width: 1024px){
+            bottom: -120px;
+        }
+        
+        path{
+            stroke: none; 
+            stroke-width: 0; 
+            fill:  #010310;
+        }  
+    }
+
+}

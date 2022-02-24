@@ -1,0 +1,54 @@
+//Estilos globales de nuestra aplicacion
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+//Header
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg,  #0a0a0a 0%, #0e132a 100%);
+    position: relative;
+
+}
+
+.header__content{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+//About
+.about{
+    width: 100%;
+    background: $background-primary;
+    position: relative;
+    overflow: hidden;
+}
+
+// Projects
+.projects{
+    width: 100%;
+    position: relative;
+    background: white;
+}
+
+// Skills
+.skills{
+    width: 100%;
+    background: $background-primary;
+    position: relative;
+}
+
+// Skills
+.contact{
+    width: 100%;
+    background: white;
+}
+

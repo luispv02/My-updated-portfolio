@@ -1,0 +1,92 @@
+.header__hero{
+    margin-top: 5rem;
+    text-align: center;
+
+    h1{
+        font-size: 1.6rem;
+        color: white;
+
+        @media (min-width: 1024px){
+            font-size: 2rem;
+        }
+    }
+
+    h2{
+        font-size: 1.4rem;
+        color: black;
+        margin-top: 1rem;
+        color: white;
+
+        @media (min-width: 1024px){
+            font-size: 1.8rem;
+        }
+    }
+
+    span{
+        color: adjust-hue($color: $background-btn, $degrees: 10);;
+    }
+
+    img{
+        width: 60%;
+
+        @media (min-width: 500px){
+            width: 50%;
+        }
+
+        @media (min-width: 620px){
+            width: 40%;
+        }
+
+        @media (min-width: 768px){
+            width: 30%;
+        }
+
+        @media (min-width: 900px){
+            width: 25%;
+        }
+
+        @media (min-width: 1024px){
+            width: 20%;
+        }
+    }
+
+    .header__hero__button-cv{
+        width: 100px;
+        margin: 1.4rem auto 1.4rem auto;
+        padding: 10px 20px;
+        border: none;
+        background: $background-btn;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 500ms;
+        display: block;
+        text-decoration: none;
+
+        &:hover{
+            background: #bfbfbf;
+            color: black;
+            transform: scale(1.1);
+        }
+    }
+
+    .header__hero__arrow-down{
+        position: absolute;
+        bottom: 80px;
+        right: 0;
+        left: 0;
+        z-index: 99;
+
+        @media (min-width: 768px){
+            display: none;
+        }
+
+        i{
+            font-size: 2rem;
+            cursor: pointer;
+            filter: drop-shadow(-1px -1px 2px white); 
+            color: white;
+        }
+    }
+}
+

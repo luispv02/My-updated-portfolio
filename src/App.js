@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
+import HeaderContent from "./components/header/HeaderContent";
+import Projects from "./components/projects/Projects";
+import Skills from "./components/skills/Skills";
+import AOS from 'aos'
+
 
 function App() {
+
+  AOS.init();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <HeaderContent />
+
+     <About />
+
+     <Projects />
+
+     <Skills />
+
+     <Contact />
+    </>
   );
 }
 

@@ -1,0 +1,26 @@
+@import './base/settings';
+@import './base/base';
+
+// Components
+//Header
+@import './components/header/navbar';
+@import './components/header/menu';
+@import './components/header/hero';
+@import './components/header/svg';
+@import './components/header/backgroundAnimate';
+
+//About
+@import './components/about/about';
+@import './components/about/svg';
+
+// Projects
+@import './components/projects/projects.scss';
+@import './components/projects/svg.scss';
+
+
+//Skills
+@import './components/skills/skills';
+@import './components/skills/svg';
+
+//Contact
+@import './components/contact/contact';

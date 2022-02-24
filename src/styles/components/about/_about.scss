@@ -1,0 +1,99 @@
+.about{
+    h1{
+        text-align: center;
+        margin: 0 0 1rem 0;
+        color:white;
+    }
+
+    .about__content{
+        width: 90%;
+        margin: 0 auto;
+        padding: 1rem 0 5rem 0;
+    
+        display: flex;
+        flex-direction: column;
+
+        @media (min-width: 500px){
+            padding-bottom: 7rem;
+        }
+    
+        @media (min-width: 620px){
+            padding-bottom: 8rem;
+        }
+
+        @media (min-width: 768px){
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 10rem;
+        }
+
+        @media (min-width: 768px){
+            padding-bottom: 13rem;
+        }
+
+        
+        .about__content__info{
+
+            @media (min-width: 768px){
+                width: 50%;
+            }
+
+            p{
+                line-height: 18px;
+                text-align: center;
+                color: white;
+            }
+
+            .about__content__icons{
+                margin: 1rem 0;
+                display: flex;
+                justify-content: space-evenly;
+        
+                i{
+                    font-size: 2rem;
+                    cursor: pointer;
+                    color: white;
+                    transition: .5s;
+        
+                    &:hover{
+                        transform: scale(1.2);
+                        filter: drop-shadow(2px 2px 2px white); 
+                    }
+        
+                    @media (min-width: 620px){
+                        font-size: 2.6rem;
+                    }
+                }
+            }
+        }
+    
+
+        img{
+            width: 50%;
+            margin: 0 auto;
+    
+            @media (min-width: 500px){
+                width: 40%;
+            }
+    
+            @media (min-width: 620px){
+                width: 50%;
+            }
+
+            @media (min-width: 768px){
+                width: 40%;
+                margin-top: -20px;
+            }
+
+            @media (min-width: 900px){
+                width: 30%;
+            }
+        
+        }
+    
+    
+        
+    }
+    
+}
+
