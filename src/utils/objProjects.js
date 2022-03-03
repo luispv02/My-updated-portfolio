@@ -7,13 +7,6 @@ export const objProjects = [
         descripcion: 'Tienda en linea, podemos mostrar los articulos y filtrarlos por categorias, podemos agregar articulos a un carrito de compras'
     },
     {
-        imagen: '00.png',
-        titulo: 'Administrador de Pacientes',
-        github: 'https://github.com/luispv02/Administrador-de-Pacientes',
-        pagina: 'https://administrador-de-pacientes-dusky.vercel.app/index.html',
-        descripcion: 'Pagina para administrar pacientes de un consultorio, podemos agregar pacientes, editarlos y eliminarlos ', 
-    },
-    {
         imagen: '02.png',
         titulo: 'Administrador de Tareas',
         github: 'https://github.com/luispv02/Todo-App-React',
@@ -47,5 +40,12 @@ export const objProjects = [
         github: 'https://github.com/luispv02/My-diary',
         pagina: 'https://my-diary-psi.vercel.app/',
         descripcion: 'Diario personal, podemos registrar usuario o iniciar sesion con google, al estar logeado podemos crear notas personales, editarlas, agregar imagen y eliminarlas. Usamos redux y firebase para autenticacion y db.', 
+    },
+    {
+        imagen: '07.png',
+        titulo: 'Administrador de Pacientes',
+        github: 'https://github.com/luispv02/Patient-manager',
+        pagina: 'https://patient-manager-two.vercel.app/',
+        descripcion: 'Pagina para administrar pacientes, podemos agregar pacientes, editarlos y eliminarlos, usamos redux y firebase.', 
     }
 ]
