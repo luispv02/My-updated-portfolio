@@ -2,9 +2,9 @@ export const objProjects = [
     {
         imagen: '01.png',
         titulo: 'Online Store',
-        github: 'https://github.com/luispv02/Online-Store',
-        pagina: 'https://online-store-tan.vercel.app/',
-        descripcion: 'Tienda en linea, podemos mostrar los articulos y filtrarlos por categorias, podemos agregar articulos a un carrito de compras'
+        github: 'https://github.com/luispv02/online-store-reactjs',
+        pagina: 'https://inspiring-sunflower-058d98.netlify.app/',
+        descripcion: 'Tienda en linea, podremos buscar articulos por categoria o por el tipo de articulo, podremos añadir al carrito y eliminar articulos, podremos cambiar cantidades todo esto actualizando los precios y el total.',
     },
     {
         imagen: '02.png',
