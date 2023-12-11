@@ -27,8 +27,11 @@ function App() {
     createMetaTag("og:title", "Mi Pagina Web")
     createMetaTag("og:type", "website")
     createMetaTag("og:image", "https://www.webdevelopmentscripts.com/post-images/685b-change-browser-address-bar-color-chrome-android.jpeg", "image")
-    createMetaTag("og:url", window.location.origin)
+    createMetaTag("og:url", "https://www.google.com/")
     createMetaTag("og:description", "Descripción sobre mi y de la pagina creada")
+    createMetaTag("og:image:type", "image/jpeg")
+    createMetaTag("og:image:width", "256")
+    createMetaTag("og:image:height", "256")
 
 
 /*     createMetaTag('og:image:width', 'Descripción sobre mi y de la pagina creada')
