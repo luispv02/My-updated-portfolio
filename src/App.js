@@ -27,7 +27,7 @@ function App() {
     createMetaTag("og:title", "Mi Pagina Web")
     createMetaTag("og:type", "website")
     createMetaTag("og:image", "https://www.webdevelopmentscripts.com/post-images/685b-change-browser-address-bar-color-chrome-android.jpeg", "image")
-    createMetaTag("og:url", window.location.hostname)
+    createMetaTag("og:url", window.location.origin)
     createMetaTag("og:description", "Descripción sobre mi y de la pagina creada")
 
 
@@ -42,7 +42,6 @@ function App() {
       metaTag.setAttribute("itemprop", itemprop);
     }
     metaTag.setAttribute("content", content);
-
     console.log('metaTag: ', metaTag)
 
     document.head.appendChild(metaTag);
