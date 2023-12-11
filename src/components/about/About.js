@@ -1,7 +1,30 @@
 import SvgAbout from './SvgAbout'
 import development from '../../assets/images/development.gif'
+import React, { useEffect } from 'react';
 
 const About = () => {
+
+  useEffect(() => {
+    // Actualizar las etiquetas meta
+    updateMetaTags();
+  }, []);
+
+  const updateMetaTags = () => {
+
+    // Crear nuevas etiquetas meta
+    createMetaTag('og:title', 'Sobre Mi');
+    createMetaTag('og:description', 'Resumen sobre MI y lo que estoy buscando');
+    createMetaTag('og:image', 'https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png');
+    createMetaTag('og:url', 'https://my-updated-portfolio-fkmtxdrrs-luispv02.vercel.app/');
+    // Otras etiquetas meta que puedas necesitar
+  };
+
+  const createMetaTag = (property, content) => {
+    const metaTag = document.createElement('meta');
+    metaTag.setAttribute('property', property);
+    metaTag.setAttribute('content', content);
+    document.head.appendChild(metaTag);
+  };
 
   return (
     <div className="about" id="sobre-mi">
