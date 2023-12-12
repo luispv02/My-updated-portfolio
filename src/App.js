@@ -12,7 +12,7 @@ function App() {
   AOS.init();
 
   
-  useEffect(() => {
+  /* useEffect(() => {
     // Actualizar las etiquetas meta
     updateMetaTags();
   }, []);
@@ -33,12 +33,9 @@ function App() {
     createMetaTag("og:image:width", "256")
     createMetaTag("og:image:height", "256")
 
+  }; */
 
-/*     createMetaTag('og:image:width', 'Descripción sobre mi y de la pagina creada')
-    createMetaTag('og:image:height', 'Descripción sobre mi y de la pagina creada') */
-  };
-
-  const createMetaTag = (property, content, itemprop) => {
+  /* const createMetaTag = (property, content, itemprop) => {
     const metaTag = document.createElement("meta");
     metaTag.setAttribute("property", property);
     if(itemprop){
@@ -48,7 +45,7 @@ function App() {
     console.log('metaTag: ', metaTag)
 
     document.head.appendChild(metaTag);
-  };
+  }; */
 
   return (
     <>
