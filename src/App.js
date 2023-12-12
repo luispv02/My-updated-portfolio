@@ -11,6 +11,13 @@ function App() {
 
   AOS.init();
 
+  useEffect(() => {
+    const ogTitleMetaTag = document.querySelector('meta[property="og:title"]');
+
+    if(ogTitleMetaTag){
+      ogTitleMetaTag.content = 'Titulo Modificado desde el componente';
+    }
+  }, [])
   
   /* useEffect(() => {
     // Actualizar las etiquetas meta
