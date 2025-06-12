@@ -4,17 +4,6 @@
         position: absolute;
         bottom: 0;
 
-        @media (min-width: 500px){
-            bottom: -20px;
-        }
-
-        @media (min-width: 768px){
-            bottom: -50px;
-        }
-
-        @media (min-width: 1024px){
-            bottom: -80px;
-        }
 
 
         path {

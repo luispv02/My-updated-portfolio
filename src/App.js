@@ -3,21 +3,17 @@ import Contact from "./components/contact/Contact";
 import HeaderContent from "./components/header/HeaderContent";
 import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
-import AOS from 'aos'
-import React, { useEffect } from 'react';
 
 
 function App() {
 
-  AOS.init();
-
-  useEffect(() => {
+  /* useEffect(() => {
     const ogTitleMetaTag = document.querySelector('meta[property="og:title"]');
 
     if(ogTitleMetaTag){
       ogTitleMetaTag.content = 'Titulo Modificado desde el componente';
     }
-  }, [])
+  }, []) */
   
   /* useEffect(() => {
     // Actualizar las etiquetas meta

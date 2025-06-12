@@ -9,7 +9,7 @@ const Projects = () => {
 
   return (
     <div className="projects" id="proyectos">
-        <h1 data-aos="fade-down">Proyectos</h1>
+        <h1>Proyectos</h1>
         <div className="projects__content">
             
             {
@@ -22,7 +22,7 @@ const Projects = () => {
             }
         </div>
 
-        <SvgProjects />
+       {/*  <SvgProjects /> */}
     </div>
   )
 }

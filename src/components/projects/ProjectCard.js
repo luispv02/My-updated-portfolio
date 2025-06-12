@@ -2,7 +2,7 @@ const ProjectCard = ({github,imagen,pagina,titulo, descripcion}) => {
 
 
   return (
-    <div className="project__card" data-aos="fade-right">
+    <div className="project__card">
         <img 
             src={imagen}
             alt='img project'

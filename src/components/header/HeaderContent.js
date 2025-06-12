@@ -18,7 +18,7 @@ const HeaderContent = () => {
 
       </div>
 
-        <SvgHeader />
+        {/* <SvgHeader /> */}
     </div>
   )
 }

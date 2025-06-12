@@ -3,7 +3,7 @@ export const objProjects = [
         imagen: '01.png',
         titulo: 'Online Store',
         github: 'https://github.com/luispv02/online-store-reactjs',
-        pagina: 'https://inspiring-sunflower-058d98.netlify.app/',
+        pagina: 'https://online-store-ten-xi.vercel.app/',
         descripcion: 'Tienda en linea, podremos buscar articulos por categoria o por el tipo de articulo, podremos añadir al carrito y eliminar articulos, podremos cambiar cantidades todo esto actualizando los precios y el total.',
     },
     {
@@ -19,13 +19,6 @@ export const objProjects = [
         github: 'https://github.com/luispv02/buscador-clima',
         pagina: 'https://epic-joliot-1078ac.netlify.app',
         descripcion: 'Busca el clima de tu Ciudad por su nombre y el nombre del Pais de dos digitos, usamos la API de openweather para obtener los resultados', 
-    },
-    {
-        imagen: '04.png',
-        titulo: 'Ip address tracker',
-        github: 'https://github.com/luispv02/IP-Address-Tracker',
-        pagina: 'https://ip-address-tracker-three-coral.vercel.app/',
-        descripcion: 'Obtener la ubicacion por el IP, la ubicacion se muestra en un mapa con algunos datos.', 
     },
     {
         imagen: '05.png',

@@ -7,11 +7,11 @@ const About = () => {
     <div className="about" id="sobre-mi">
         <h1>Sobre Mi</h1>
         
-        <div className="about__content" data-aos="fade-right">
+        <div className="about__content">
             <div className="about__content__info">
-              <p>Desarrollador Web Front end, buscando mi primera oportunidad laboral con el fin de obtener experiencia y mayor conocimiento en este mundo frond end, y aportar lo que se, siempre dando lo mejor para obtener el resultado esperado. Aprendiendo de forma autodidacta.</p>
+              <p>Desarrollador web FrontEnd con dos años de experiencia y conocimientos básicos en el BackEnd, me enfoco en crear soluciones funcionales, accesibles y visualmente atractivas, me motiva enfrentar desafíos que impulsen mi crecimiento profesional, me permitan aprender nuevas tecnologías y aportar lo que se ha proyectos innovadores.</p>
 
-              <div className="about__content__icons">
+            {/*   <div className="about__content__icons">
                 <a 
                   href="https://github.com/luispv02"
                   target='_blank'
@@ -23,17 +23,16 @@ const About = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                 ><i className="fab fa-linkedin"></i></a>
-              </div>
+              </div> */}
             </div>
 
             <img 
               src={development}
               alt='img development'
-              data-aos="fade-right"
             />
         </div>
 
-        <SvgAbout />
+        {/* <SvgAbout /> */}
     </div>
   )
 }

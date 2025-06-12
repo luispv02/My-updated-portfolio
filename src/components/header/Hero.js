@@ -51,7 +51,7 @@ const Hero = () => {
       >Desarrollador Front End
         <br />
         <Typewriter 
-            words={[' Html', ' Css', ' JavaScript', ' React', 'Redux', ' Bootstrap', 'Tailwind', ' Responsive']}
+            words={[' Html5', ' Css3', ' JavaScript', ' Vue3', 'Pinia', 'Firebase', 'Quasar', ' React', 'Redux', ' Bootstrap', 'Tailwind', ' Responsive']}
             loop
             cursor
             cursorStyle="|"
