@@ -62,7 +62,7 @@ const Hero = () => {
 
       <a
         className="header__hero__button-cv"
-        href='../cv.pdf'
+        href='../CV_Luis_Fernando.pdf'
         target='_blank'
         rel='noopener noreferrer'
       >Ver cv</a>
